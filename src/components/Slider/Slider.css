@@ -1,0 +1,64 @@
+
+/* Slider */
+
+.drk:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:#000;
+  opacity:0.5;
+  position: relative;
+}
+
+.ccd {
+  text-transform: uppercase;
+  position: relative;
+  top: 50%;
+  transform:translate(0, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+
+.c-text h2{
+  font-family: cursive !important;
+  color: #fff;
+  font-weight: bold;
+
+}
+
+.c-text p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 5px;
+}
+
+.slider-image{
+
+  object-fit: contain;
+  width: 300px;
+
+}
+
+@media all and (max-width:767px) {
+
+  .ccd{
+
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .slider-image{
+
+    object-fit: contain;
+    width: 250px;
+  
+  }
+  
+}

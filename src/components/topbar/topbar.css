@@ -1,0 +1,41 @@
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(38, 36, 36);
+    width: 100vw;
+
+
+}
+
+.topbar h1{
+    font-size: 24px;
+    flex: 0.2;
+    color: white;
+} 
+
+.topbar p{
+    flex: 0.45;
+    color: white;
+}
+
+.topbar button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+@media all and (max-width:767px) {
+
+    .topbar{
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+        padding: 10px 20px ;
+    }
+    
+  }
+  
+  
+  
